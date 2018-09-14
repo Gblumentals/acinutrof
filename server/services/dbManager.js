@@ -26,7 +26,7 @@ let promise = mongoose.connect(`${Config.db.protocol}://${Config.db.address}:${C
 let db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', () => {
-  console.log('- connectted to database successfully');
+  console.log('- connected to database successfully');
 });
 
 DB.db = db

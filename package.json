@@ -6,7 +6,8 @@
   "author": "Fernando",
   "license": "MIT",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node server/index.js",
+    "test": "./node_modules/mocha/bin/mocha server/tests/mocha"
   },
   "dependencies": {
     "async": "^2.6.1",
