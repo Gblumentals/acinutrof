@@ -1,0 +1,7 @@
+node_modules
+dist
+debug.log
+config
+.env
+package-lock.json
+yarn.lock
